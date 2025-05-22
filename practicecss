@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .centertext {
+            text-align: center;
+        }
+        #p2 {
+            text-align: right;
+        }
+        #p3 {
+            text-align: left;
+        }
+    </style>
+    <title>Practice CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="centertext">Practice CSS</h1>
+    <p class="centertext">This is a centered piece of text.</p>
+    <p id="p2">This is a practice document with a photo of a cat, with the text to the right.</p>
+    <p id="p3">This is me moving the paragraph text to the left.</p>
+    <img src="catphoto.jpeg" alt="Cat Photo" style="width: 50%;">
+    <p class="centertext">"i'm a cute cat"</p>
+    <h1 class="centertext">Trying this again</h1>
+</body>
+</html>

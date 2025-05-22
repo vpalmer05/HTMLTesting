@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie List</title>
+</head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #D7B5A0;
+  padding: 3px;
+}
+.grid-item {
+  background-color: #CCE1F2;
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+}
+.grid-form {
+  background-color: #CCE1F2;
+  grid-template-columns: 100%;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
+}
+</style>
+<body>
+<div class="grid-container">
+  <div class="grid-item">
+    <h2>Pulp Fiction</h2>
+    <img src="pbWgQPC6l9pkpEpi3WNRSfWYNP6.jpg"alt="Pulp Fiction" style="width:100%">
+    <p>A 1994 American independent crime film written and directed by Quentin Tarantino.</p>
+    <p><strong>Rating 8.3/10</strong></p>
+  </div>
+  <div class="grid-item" style="background-color:#C6F8E5;">
+    <h2>Shawshank Redemption</h2>
+    <img src="the-shawshank-redemption-1.jpg"alt="Shawshank Redemption" style="width:100%">
+    <p>A 1994 American prison drama film written and directed by Frank Darabont.</p>
+    <p><strong>Rating 8.9/10</strong></p>
+  </div>
+  <div class="grid-item">
+    <h2>The Godfather</h2>
+    <img src="gXiniOb2EpD7VkqprlzOzKoTEwK.jpg"alt="The Godfather" style="width:100%">
+    <p>A 1972 American epic crime film directed by Francis Ford Coppola.</p>
+    <p><strong>Rating 8.8/10</strong></p>
+  </div>
+  <div class="grid-item" style="background-color:#C6F8E5;">
+    <h2>The Dark Knight</h2>
+    <img src="R.jpeg"alt="The Dark Knight" style="width:100%">
+    <p>A 2008 superhero film directed by Christopher Nolan.</p>
+    <p><strong>Rating 8.2/10</strong></p>
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-form">
+    <h2>Movie Suggestion Form</h2>
+    <form action="/action_page.php">
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" value="example@email.com"><br><br>
+      <label for="suggestion">Suggestion:</label><br>
+      <input type="text" id="suggestion" name="suggestion" value="Suggestion here"><br><br>
+      <label for="receive">Receive Emails?</label><br>
+      <input type="radio" id="receive_yes" name="receive" value="Yes">Yes<br>
+      <input type="radio" id="receive_no" name="receive" value="No">No<br><br>
+      <input type="submit" value="Submit">
+  </div>
+    
+</body>
+</html>
